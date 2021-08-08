@@ -27,15 +27,15 @@ module.exports = {
         collapsable: true, // 可选的, 默认值是 true,
         children: [
           {
-            title: "应用层介绍",
+            title: "介绍",
             path: "/03_application_layer/",
           },
           {
-            title: "DNS",
+            title: "DNS协议",
             path: "/03_application_layer/dns.md",
           },
           {
-            title: "HTTP",
+            title: "HTTP协议",
             children: [
               {
                 title: "HTTP介绍",
