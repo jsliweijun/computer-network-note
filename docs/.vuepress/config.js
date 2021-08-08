@@ -9,18 +9,49 @@ module.exports = {
       { text: "首页", link: "/" },
       {
         text: "github",
-        link: "/",
+        link: "https://github.com/lwj201606/computer-network-note",
       },
     ],
     // 侧边栏
     sidebar: [
       {
-        title: "前言", // 必要的
+        title: "目录", // 必要的
+        path: "/01_contents/"
+      },
+      {
+        title: "体系结构", // 必要的
+        path: "/02_layered_structure/"
+      },
+      {
+        title: "应用层", // 必要的
         collapsable: true, // 可选的, 默认值是 true,
         children: [
           {
-            title: "介绍",
-            path: "/01_preface/",
+            title: "应用层介绍",
+            path: "/03_application_layer/",
+          },
+          {
+            title: "DNS",
+            path: "/03_application_layer/dns.md",
+          },
+          {
+            title: "HTTP",
+            children: [
+              {
+                title: "HTTP介绍",
+                path: "/03_application_layer/http/http.md",
+              }
+            ],
+          },
+        ],
+      },
+      {
+        title: "传输层", // 必要的
+        collapsable: true, // 可选的, 默认值是 true,
+        children: [
+          {
+            title: "传输层介绍",
+            path: "/04_transport_layer/",
           },
         ],
       },
