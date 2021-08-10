@@ -38,9 +38,13 @@ module.exports = {
             title: "HTTP协议",
             children: [
               {
-                title: "HTTP介绍",
-                path: "/03_application_layer/http/http.md",
-              }
+                title: "HTTP 介绍",
+                path: "/03_application_layer/http/01_http.md",
+              },
+              {
+                title: "HTTP URL",
+                path: "/03_application_layer/http/02_url.md",
+              },
             ],
           },
         ],
