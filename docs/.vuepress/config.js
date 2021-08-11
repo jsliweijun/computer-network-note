@@ -45,6 +45,10 @@ module.exports = {
                 title: "HTTP URL",
                 path: "/03_application_layer/http/02_url.md",
               },
+              {
+                title: "HTTP 请求报文",
+                path: "/03_application_layer/http/03_request.md",
+              },
             ],
           },
         ],
