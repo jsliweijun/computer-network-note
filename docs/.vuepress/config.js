@@ -49,6 +49,14 @@ module.exports = {
                 title: "HTTP 请求报文",
                 path: "/03_application_layer/http/03_request.md",
               },
+              {
+                title: "HTTP 响应报文",
+                path: "/03_application_layer/http/04_response.md",
+              },
+              {
+                title: "HTTP 缓存机制",
+                path: "/03_application_layer/http/05_http_cache.md",
+              },
             ],
           },
         ],
@@ -60,6 +68,24 @@ module.exports = {
           {
             title: "传输层介绍",
             path: "/04_transport_layer/",
+          },
+        ],
+      },
+      {
+        title: "WEB 安全", // 必要的
+        collapsable: true, // 可选的, 默认值是 true,
+        children: [
+          {
+            title: "XSS",
+            path: "/07_web_security/xss.md",
+          },
+          {
+            title: "XSS",
+            path: "/07_web_security/xss.md",
+          },
+          {
+            title: "XSS",
+            path: "/07_web_security/xss.md",
           },
         ],
       },
